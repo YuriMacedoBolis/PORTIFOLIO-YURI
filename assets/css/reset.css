@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(41, 187, 124);
+}
+
+ul{
+    list-style: none;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+.cabecalho .logo{
+    color: brown;
+}
