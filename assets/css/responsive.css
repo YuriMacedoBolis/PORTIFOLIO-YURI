@@ -1,0 +1,51 @@
+@media(max-width: 1280px){
+    
+    .cabecalho{
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cabecalho .logo{
+        margin-bottom: 20px;
+    }
+
+    #home{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;  
+      text-align: center;
+    }
+
+    #home .col-a{
+        align-items: center;
+    }
+
+    #sobre-mim{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+}
+
+@media(max-width:480px){
+
+    .cabecalho .logo{
+        display: none;
+    }
+
+    .cabecalho{
+        width: 480px;
+        padding: 10px;
+    }
+
+    #home{
+        background-color: red;
+    }
+
+    #home .col-a{
+        gap: 20px;
+        margin-top: 20px;
+    }
+}
