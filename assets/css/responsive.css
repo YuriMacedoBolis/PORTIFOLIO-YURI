@@ -129,8 +129,10 @@
     }
 
     #sobre-mim .informacoes{
-        width: 380px;
+        width: 320px;
         height: auto;
+        text-align: start;
+        margin-bottom: 20px;
     }
 
     #projetos .container-projetos .projeto{
@@ -152,15 +154,15 @@
     }
     
     #habilidades .skills{
-        width: 360px;
+        width: 340px;
     }
 
     #habilidades .skills li{
-        width: 300px;
+        width: 280px;
     }
 
     #habilidades .skills li p{
-        width: 300px;
+        width: 280px;
     }
 
     #habilidades .skills:hover{
