@@ -1,3 +1,5 @@
+/* TABLETS */
+
 @media(max-width: 1280px){
     
     .cabecalho{
@@ -27,7 +29,14 @@
         gap: 30px;
     }
 
+    #habilidades{
+        flex-direction: column;
+    }
+
 }
+
+
+/* CELULARES GRANDES */
 
 @media(max-width:480px){
 
@@ -60,7 +69,30 @@
     #sobre-mim .informacoes{
         width: 400px;
     }
+
+    #habilidades{
+        gap: 50px;
+    }
+
+    #habilidades .skills{
+        width: 440px;
+    }
+
+    #habilidades .skills li{
+        width: 440px;
+    }
+
+    #habilidades .skills li p{
+        width: 400px;
+    }
+
+    #habilidades .skills:hover{
+        transform: scale(1.05);
+    }
 }
+
+
+/* CELULARES PEQUENOS */
 
 @media(max-width:400px){
 
@@ -113,5 +145,25 @@
     .container-projetos .informacoes-projeto{
         font-size: 15px;
         max-height: 520px;
+    }
+
+    #habilidades{
+        gap: 50px;
+    }
+    
+    #habilidades .skills{
+        width: 360px;
+    }
+
+    #habilidades .skills li{
+        width: 300px;
+    }
+
+    #habilidades .skills li p{
+        width: 300px;
+    }
+
+    #habilidades .skills:hover{
+        transform: scale(1);
     }
 }

@@ -200,7 +200,7 @@ body{
     align-items: start;
     justify-content: center;
     width: 560px;
-    height: 400px;
+    height: 550px;
     border-radius: 12px;
     transition: 0.5s ease-in-out;
 }
@@ -305,14 +305,15 @@ body{
 }
 
 .container-projetos .projeto img{
-    width: auto;
+    width: 380px;
     height: 200px;
     margin-bottom: 25px;
 }
 
 .container-projetos .informacoes-projeto{
     color: rgb(182, 182, 182);
-    font-size: 20px;
+    gap: 10px;
+    font-size: 16px;
     max-width: 360px;
     max-height: 200px;
     display: flex;
